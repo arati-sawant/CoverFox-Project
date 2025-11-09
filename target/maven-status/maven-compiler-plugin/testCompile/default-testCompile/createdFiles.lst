@@ -1,0 +1,6 @@
+assertionStudy\Demo.class
+runner\CoverfoxRunnerClass.class
+stepDefinitions\Gmail.class
+stepDefinitions\CoverfoxCarBikeInsurance.class
+stepDefinitions\CoverFoxHealthInsurance.class
+hooks\Hooks.class
