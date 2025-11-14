@@ -26,7 +26,7 @@ public class Utility {
 	public static String readDataFromPropertiesFile(String key) throws IOException {
 		Properties properties = new Properties();
 		FileInputStream myFile = new FileInputStream(
-				"C:\\Users\\Admin\\eclipse-workspace\\31stMay_coverFox\\src\\main\\resources\\config\\config.properties");
+				"C:\\Users\\dell\\Desktop\\GithubAjay\\CoverFox-Project\\src\\main\\resources\\config\\config.properties");
 		properties.load(myFile);
 		String value = properties.getProperty(key);
 		System.out.println("reading " + key + "value is " + value);
@@ -37,7 +37,7 @@ public class Utility {
 	public static String readDataFromExcel(String sheetName, int row, int cell)
 			throws EncryptedDocumentException, IOException {
 		FileInputStream myFile = new FileInputStream(
-				"C:\\\\Users\\\\Admin\\\\Desktop\\\\Software Testing\\\\Test File.xlsx");
+				"C:\\Users\\dell\\Desktop\\GithubAjay\\CoverFox-Project\\src\\main\\resources\\testData\\Test File.xlsx");
 		Sheet mySheet = WorkbookFactory.create(myFile).getSheet(sheetName);
 		String testData = mySheet.getRow(row).getCell(cell).getStringCellValue();
 		System.out.println("reading data from excel " + testData);
