@@ -14,3 +14,11 @@ And I click on next button
 And I provide age as "24" and click on next button
 And I click on continue button
 Then Validate error messages
+
+Scenario: TC03: Validate CoverFox address details page error messages
+Given I am on home page1
+When I click on get started button
+And I click on next button
+And I provide age as "24" and click on next button
+And I click on continue button
+Then Validate error messages
