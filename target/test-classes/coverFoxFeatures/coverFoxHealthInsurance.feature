@@ -20,5 +20,5 @@ Given I am on home page1
 When I click on get started button
 And I click on next button
 And I provide age as "24" and click on next button
-And I click on continue button
+And Changes made
 Then Validate error messages
