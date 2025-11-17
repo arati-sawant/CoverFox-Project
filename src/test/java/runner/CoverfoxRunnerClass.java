@@ -8,7 +8,8 @@ import io.cucumber.testng.CucumberOptions;
 				"C:\\Users\\Admin\\eclipse-workspace\\31stMay_coverFox\\src\\test\\resources\\coverFoxFeatures\\coverFoxHealthInsurance.feature"
 		}
 		,glue= {"stepDefinitions", "hooks"}, 
-				plugin={"pretty","html:target/CucumberReports/reports.html"}, 
+				plugin={"pretty","html:target/CucumberReports/reports.html",
+						"json:target/cucumber-reports/cucumber.json"}, 
 				publish= true,  
 				dryRun= false
 				

@@ -11,26 +11,26 @@
       <![CDATA[closing browser]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-11-15T12:29:01 IST" name="Suite" finished-at="2025-11-15T12:30:18 IST" duration-ms="77330">
+  <suite started-at="2025-11-17T12:12:06 IST" name="Suite" finished-at="2025-11-17T12:13:05 IST" duration-ms="58706">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.CoverfoxRunnerClass@a1153bc]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.CoverfoxRunnerClass@28701274]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-11-15T12:29:01 IST" name="Test" finished-at="2025-11-15T12:30:18 IST" duration-ms="77330">
+    <test started-at="2025-11-17T12:12:06 IST" name="Test" finished-at="2025-11-17T12:13:05 IST" duration-ms="58706">
       <class name="runner.CoverfoxRunnerClass">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.CoverfoxRunnerClass@a1153bc]" started-at="2025-11-15T12:29:01 IST" name="setUpClass" finished-at="2025-11-15T12:29:02 IST" duration-ms="1215" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.CoverfoxRunnerClass@28701274]" started-at="2025-11-17T12:12:06 IST" name="setUpClass" finished-at="2025-11-17T12:12:07 IST" duration-ms="1106" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6cbe7d4d]]>
+                <![CDATA[org.testng.TestRunner@66236a0a]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.CoverfoxRunnerClass@a1153bc]" started-at="2025-11-15T12:29:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-15T12:29:54 IST" duration-ms="51231" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.CoverfoxRunnerClass@28701274]" started-at="2025-11-17T12:12:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-17T12:12:41 IST" duration-ms="33203" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -52,7 +52,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.CoverfoxRunnerClass@a1153bc]" started-at="2025-11-15T12:29:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-15T12:30:16 IST" duration-ms="22117" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.CoverfoxRunnerClass@28701274]" started-at="2025-11-17T12:12:41 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-17T12:13:02 IST" duration-ms="21910" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -71,7 +71,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.CoverfoxRunnerClass@a1153bc]" started-at="2025-11-15T12:30:16 IST" name="tearDownClass" finished-at="2025-11-15T12:30:18 IST" duration-ms="2686" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.CoverfoxRunnerClass@28701274]" started-at="2025-11-17T12:13:02 IST" name="tearDownClass" finished-at="2025-11-17T12:13:05 IST" duration-ms="2401" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
